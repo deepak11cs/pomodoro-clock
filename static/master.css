@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  min-height: 100vh;
+  width: 100vw;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.button {
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#container {
+  min-width: 50vw;
+  max-width: 98vw;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#container #settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 30px;
+}
+#container #settings #break {
+  display: flex;
+  flex-direction: column;
+}
+#container #settings #break #break-label {
+  font-weight: 1000;
+  font-size: 2em;
+  padding: 5px;
+}
+#container #settings #break #break-control {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+#container #settings #break #break-control #break-decrement {
+  font-size: 2em;
+}
+#container #settings #break #break-control #break-length {
+  font-size: 3em;
+}
+#container #settings #break #break-control #break-increment {
+  font-size: 2em;
+}
+#container #settings #break #break-control:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+#container #settings #session {
+  display: flex;
+  flex-direction: column;
+}
+#container #settings #session #session-label {
+  font-weight: 1000;
+  font-size: 2em;
+  padding: 5px;
+}
+#container #settings #session #session-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#container #settings #session #session-control #session-decrement {
+  font-size: 2em;
+}
+#container #settings #session #session-control #session-length {
+  font-size: 3em;
+}
+#container #settings #session #session-control #session-increment {
+  font-size: 2em;
+}
+#container #settings #session #session-control:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+#container #timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+}
+#container #timer #timer-label {
+  font-weight: 800;
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+}
+#container #timer #time-left {
+  color: white;
+  font-size: 6em;
+  font-weight: 500;
+  border: 1px groove white;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+}
+#container #controls {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 40px 20px 10px 20px;
+}
+#container #controls #start_stop {
+  font-size: 3em;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 5%;
+}
+#container #controls #start_stop:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+#container #controls #reset {
+  font-size: 3em;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#container #controls #reset:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=master.css.map */
