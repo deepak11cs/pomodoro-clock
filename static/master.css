@@ -23,6 +23,8 @@
 #container {
   min-width: 50vw;
   max-width: 98vw;
+  min-height: 98vmin;
+  max-height: 100%;
   display: flex;
   padding: 0px;
   justify-content: center;
